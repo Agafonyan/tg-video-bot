@@ -16,7 +16,7 @@ from telegram.ext import Application, MessageHandler, ContextTypes, filters
 
 load_dotenv()
 
-BOT_TOKEN = 8885033514:AAEzT-Vf5fEg2322_2xDTTi2KFu4gi1zWEY
+BOT_TOKEN = "8885033514:AAEzT-Vf5fEg2322_2xDTTi2KFu4gi1zWEY"
 # Если хочешь, чтобы бот работал только в одной группе:
 # 1) Узнай chat_id группы через логи Railway после первого сообщения
 # 2) Добавь переменную ALLOWED_CHAT_ID в Railway
