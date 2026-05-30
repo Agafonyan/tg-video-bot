@@ -79,7 +79,7 @@ def download_video(url: str, output_dir: str) -> str:
 
     ydl_opts = {
         "outtmpl": output_template,
-        "format": "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]/best",
+        "format": "best",
         "merge_output_format": "mp4",
         "noplaylist": True,
         "quiet": True,
