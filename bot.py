@@ -80,6 +80,14 @@ def download_video(url: str, output_dir: str) -> str:
     ydl_opts = {
         "outtmpl": output_template,
         "format": "best",
+        "extractor_args": {
+    "youtube": {
+        "player_client": ["android", "web"]
+    },
+    "tiktok": {
+        "api_hostname": ["api16-normal-c-useast1a.tiktokv.com"]
+    }
+},
         "merge_output_format": "mp4",
         "noplaylist": True,
         "quiet": True,
