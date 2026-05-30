@@ -1,4 +1,0 @@
-python-telegram-bot==21.10
-python-dotenv
-requests
-yt-dlp[default] @ https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz
